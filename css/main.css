@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.vista-splash h1 {
+  margin: 0;
+  height: 50%;
+  transform: translateY(90%);
+  font-size: 50px;
+}
+.vista-splash {
+  background: #2b2b2b;
+  background-size: cover;
+  color: #b56b31;
+  height: 575px;
+  }
