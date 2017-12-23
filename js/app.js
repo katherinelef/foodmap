@@ -3,7 +3,8 @@ $(document).ready(function() {
     $('h1').click(function() {
     window.location.href = 'vista-2.html'
   });
-});
+
+$( "input" ).keyup(function() {
 
 var rest1 = {
   restaurant: 'tanta',
@@ -38,7 +39,14 @@ var rest5 = {
 var restaurantes = [rest1, rest2, rest3, rest4, rest5];
 
 for (i = 0; i < restaurantes.length; i++) {
-  if (restaurantes[i].distrito === 'lima') {
-    console.log(restaurantes[i].restaurant);
+  if (restaurantes[i].distrito === $("input").val()) {
+    $(".texto").append(restaurantes[i].restaurant);
+
   }
 }
+
+
+
+});
+
+});
