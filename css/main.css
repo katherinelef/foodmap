@@ -1,17 +1,50 @@
-body {
+* body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  background: #2b2b2b;
 }
 
-.vista-splash h1 {
+h1 {
   margin: 0;
-  height: 50%;
-  transform: translateY(90%);
   font-size: 50px;
-}
-.vista-splash {
-  background: #2b2b2b;
-  background-size: cover;
   color: #b56b31;
-  height: 575px;
-  }
+}
+
+h2 {
+  color: #b56b31;
+}
+
+.vista-principal h1 {
+  transform: translateY(400%);
+}
+
+.filtros {
+  padding: 25px 20px;
+}
+
+.square {
+  color:white;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+}
+
+.line {
+  width: 90%;
+  border: 1px solid white;
+  margin-bottom:5px;
+  margin-left: 0;
+}
+
+.square,.line {
+  display: inline-block;
+}
+
+iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: inline-block;
+}

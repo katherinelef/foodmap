@@ -1,11 +1,9 @@
 $(document).ready(function() {
-  $('h1').click(function() {
-    window.location.href = 'vista-1.html'
 
+    $('h1').click(function() {
+    window.location.href = 'vista-2.html'
   });
 });
-
-
 
 var rest1 = {
   restaurant: 'tanta',
