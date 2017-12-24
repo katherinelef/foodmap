@@ -52,3 +52,43 @@ iframe {
 .restaurantes {
   color: white;
 }
+
+.bembos {
+  background-image: url("assets/images/bembos.jpg");
+}
+
+.casamama {
+  background-image: url("assets/images/casamama.jpg");
+}
+
+.chenzu {
+  background-image: url("assets/images/chenzu.jpg");
+}
+
+.huerto {
+  background-image: url("assets/images/el-huerto.jpg");
+}
+
+.kentucky {
+  background-image: url("assets/images/kentucky.jpg");
+}
+
+.mihan {
+  background-image: url("assets/images/mihan.jpg");
+}
+
+.olimpico {
+  background-image: url("../assets/images/olimpico.jpg");
+}
+
+.rockys {
+  background-image: url("assets/images/rockys.jpeg");
+}
+
+.tanta {
+  background-image: url("assets/images/tanta.png");
+}
+
+.vegetales {
+  background-image: url("assets/images/vegetales.jpg");
+}
