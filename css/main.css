@@ -54,41 +54,57 @@ iframe {
 }
 
 .bembos {
-  background-image: url("assets/images/bembos.jpg");
+  background-image: url("../assets/images/bembos.jpg");
+  background-size: contain;
 }
 
 .casamama {
-  background-image: url("assets/images/casamama.jpg");
+  background-image: url("../assets/images/casamama.jpg");
+  background-size: contain;
 }
 
 .chenzu {
-  background-image: url("assets/images/chenzu.jpg");
+  background-image: url("../assets/images/chenzu.jpg");
+  background-size: contain;
 }
 
 .huerto {
-  background-image: url("assets/images/el-huerto.jpg");
+  background-image: url("../assets/images/el-huerto.jpg");
+  background-size: contain;
 }
 
 .kentucky {
-  background-image: url("assets/images/kentucky.jpg");
+  background-image: url("../assets/images/kentucky.jpg");
+  background-size: contain;
 }
 
 .mihan {
-  background-image: url("assets/images/mihan.jpg");
+  background-image: url("../assets/images/mihan.jpg");
+  background-size: contain;
 }
 
 .olimpico {
   background-image: url("../assets/images/olimpico.jpg");
+  background-size: contain;
 }
 
 .rockys {
-  background-image: url("assets/images/rockys.jpeg");
+  background-image: url("../assets/images/rockys.jpeg");
+  background-size: contain;
 }
 
 .tanta {
-  background-image: url("assets/images/tanta.png");
+  background-image: url("../assets/images/tanta.png");
+  background-size: contain;
 }
 
 .vegetales {
-  background-image: url("assets/images/vegetales.jpg");
+  background-image: url("../assets/images/vegetales.jpg");
+  background-size: contain;
+}
+
+p {
+  height: 80px;
+  width: 90px;
+  display: inline-block;
 }

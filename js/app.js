@@ -77,14 +77,18 @@ for (i = 0; i < restaurantes.length; i++) {
   }
 }
 
-if($("div.restaurantes p.texto").text()==="rockys") {
-  console.log("hola");
-}
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
+$("p:contains('bembos')").addClass("bembos");
 
 });
 
-if($(".texto").html()==="olimpico") {
-  $(".texto").addId("olimpico");
-}
 
 });
