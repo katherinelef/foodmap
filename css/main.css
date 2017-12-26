@@ -55,56 +55,66 @@ iframe {
 
 .bembos {
   background-image: url("../assets/images/bembos.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .casamama {
   background-image: url("../assets/images/casamama.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .chenzu {
   background-image: url("../assets/images/chenzu.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .huerto {
   background-image: url("../assets/images/el-huerto.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .kentucky {
   background-image: url("../assets/images/kentucky.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .mihan {
   background-image: url("../assets/images/mihan.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .olimpico {
   background-image: url("../assets/images/olimpico.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .rockys {
   background-image: url("../assets/images/rockys.jpeg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .tanta {
   background-image: url("../assets/images/tanta.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .vegetales {
   background-image: url("../assets/images/vegetales.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 p {
   height: 80px;
-  width: 90px;
+  width: 110px;
   display: inline-block;
+  border: 2px solid white;
+  margin: 3px;
+  padding-top: 30px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+}
+
+p:first-letter {
+    text-transform:uppercase;
 }

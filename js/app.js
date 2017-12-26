@@ -68,27 +68,34 @@ var rest10 = {
 
 var restaurantes = [rest1, rest2, rest3, rest4, rest5, rest6, rest7, rest8, rest9, rest10];
 
+$(".cerca").css("display","none");
+
 for (i = 0; i < restaurantes.length; i++) {
+
   if (restaurantes[i].distrito === $("input").val()) {
     $(".restaurantes").append("<p class='texto'>"+restaurantes[i].restaurant+"</p>");
   }
+
+  else if (restaurantes[i].comida === $("input").val()) {
+    $(".restaurantes").append("<p class='texto'>"+restaurantes[i].restaurant+"</p>");
+  }
+
   else if($("input").val()==="") {
     $(".texto").remove();
+    $(".cerca").css("display","block");
   }
 }
 
 $("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
-$("p:contains('bembos')").addClass("bembos");
+$("p:contains('casamama')").addClass("casamama");
+$("p:contains('chenzu')").addClass("chenzu");
+$("p:contains('el huerto')").addClass("huerto");
+$("p:contains('kentucky')").addClass("kentucky");
+$("p:contains('mihan')").addClass("mihan");
+$("p:contains('olimpico')").addClass("olimpico");
+$("p:contains('rockys')").addClass("rockys");
+$("p:contains('tanta')").addClass("tanta");
+$("p:contains('vegetales')").addClass("vegetales");
 
 });
-
-
 });
