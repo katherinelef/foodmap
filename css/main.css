@@ -104,17 +104,27 @@ iframe {
 }
 
 p {
+  color:transparent;
   height: 80px;
   width: 110px;
   display: inline-block;
   border: 2px solid white;
   margin: 3px;
   padding-top: 30px;
-  color:white;
   font-weight: bold;
   text-align: center;
 }
 
 p:first-letter {
     text-transform:uppercase;
+}
+
+input::first-letter {
+  text-transform: uppercase;
+}
+
+.big {
+  color:white;
+  font-size: 15px;
+  cursor:pointer;
 }
