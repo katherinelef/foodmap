@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   $( "input" ).keyup(function() {
 
   var rest1 = {
@@ -63,11 +62,8 @@ $(document).ready(function(){
   };
 
   var restaurantes = [rest1, rest2, rest3, rest4, rest5, rest6, rest7, rest8, rest9, rest10];
-
   $(".cerca").css("display","none");
-
   for (i = 0; i < restaurantes.length; i++) {
-
     if (restaurantes[i].distrito === $("input").val()) {
       $(".restaurantes").append("<p class='texto'>"+restaurantes[i].restaurant+"</p>");
       $("p").hover (
@@ -75,12 +71,8 @@ $(document).ready(function(){
         $(this).addClass("big")
       },function () {
         $(this).removeClass("big")
-        }
-
-      );
-
+      });
     }
-
     else if (restaurantes[i].comida === $("input").val()) {
       $(".restaurantes").append("<p class='texto'>"+restaurantes[i].restaurant+"</p>");
       $("p").hover (
@@ -88,12 +80,8 @@ $(document).ready(function(){
         $(this).addClass("big")
       },function () {
         $(this).removeClass("big")
-        }
-
-      );
-
+      });
     }
-
     else if($("input").val()==="") {
       $(".texto").remove();
       $(".cerca").css("display","block");

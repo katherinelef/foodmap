@@ -1,13 +1,13 @@
 * body {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
   background: #2b2b2b;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
 }
 
 h1 {
-  margin: 0;
-  font-size: 50px;
   color: #b56b31;
+  font-size: 50px;
+  margin: 0;
 }
 
 h2 {
@@ -23,17 +23,17 @@ h2 {
 }
 
 .square {
-  color:white;
-  width: 14px;
-  height: 14px;
   border: 1px solid white;
+  color:white;
+  height: 14px;
+  width: 14px;
 }
 
 .line {
-  width: 90%;
   border: 1px solid white;
   margin-bottom:5px;
   margin-left: 0;
+  width: 90%;
 }
 
 .square,.line {
@@ -41,8 +41,8 @@ h2 {
 }
 
 iframe {
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .input-group {
@@ -105,18 +105,18 @@ iframe {
 
 p {
   color:transparent;
-  height: 80px;
-  width: 110px;
-  display: inline-block;
   border: 2px solid white;
+  display: inline-block;
+  font-weight: bold;
+  height: 80px;
   margin: 3px;
   padding-top: 30px;
-  font-weight: bold;
   text-align: center;
+  width: 110px;
 }
 
 p:first-letter {
-    text-transform:uppercase;
+  text-transform:uppercase;
 }
 
 input::first-letter {
@@ -125,6 +125,6 @@ input::first-letter {
 
 .big {
   color:white;
-  font-size: 15px;
   cursor:pointer;
+  font-size: 15px;
 }
